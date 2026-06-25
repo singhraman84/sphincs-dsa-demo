@@ -1,0 +1,16 @@
+[package]
+name = "sphincs-dsa-demo"
+version = "0.1.0"
+edition = "2024"
+authors = ["Raman Singh, Email: raman.singh@ieee.org and Raman.Singh@uws.ac.uk" ]
+description = "Rust demo for Sphincs SLH-DSA post-quantum digital signatures (for all 12 variants)"
+license = "Apache-2.0"
+repository = "https://github.com/singhraman84/sphincs-dsa-demo"
+readme = "README.md"
+keywords = ["cryptography", "Sphincs", "post-quantum", "signature", "slh-dsa"]
+categories = ["cryptography"]
+rust-version = "1.96"
+
+[dependencies]
+purecrypto = "0.6.18"
+sha2 = "0.10"
