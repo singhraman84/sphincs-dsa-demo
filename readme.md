@@ -9,7 +9,7 @@ This project demonstrates **SLH-DSA (Sphincs+) digital signature algorithm (DSA)
 - Generate key pairs for all 12 variants.
 - Sign message.
 - Verify signatures using public key.
-- Display key parameters like key gen time, sign time, public key size, signature size.
+- Display key parameters like key gen time, sign time, public key size, and signature size.
 - Used the purecrypto v0.6.25 library. The library can be checked at: https://crates.io/crates/purecrypto
 
 ---
@@ -49,19 +49,19 @@ You will be prompted to:
 
 - Enter a seed of 32 bytes. If seed is less than 32 bytes, letter 'a' appended and if the seed is longer, first 32 bytes are considered. 
 - Enter a message to sign
-
-##Dependencies
+ 
+## Dependencies
 purecrypto = "0.6.18"
 sha2 = "0.10"
 
-##Notes
+## Notes
 SLH-DSA is a post-quantum signature algorithm. 
 
 ## Disclaimer
 This project is for educational and research purposes only.
 It has not been audited and should not be used in production systems.
 
-##License
+## License
 This project is licensed under the Apache License 2.0.
 
 
