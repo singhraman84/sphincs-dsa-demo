@@ -9,7 +9,6 @@ repository = "https://github.com/singhraman84/sphincs-dsa-demo"
 readme = "README.md"
 keywords = ["cryptography", "Sphincs", "post-quantum", "signature", "slh-dsa"]
 categories = ["cryptography"]
-rust-version = "1.96"
 
 [dependencies]
 purecrypto = "0.6.18"
