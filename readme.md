@@ -7,8 +7,8 @@ This project demonstrates **SLH-DSA (Sphincs+) digital signature algorithm (DSA)
 ## Features
 
 - Generate key pairs for all 12 variants.
-- Sign message.
-- Verify signatures using public key.
+- Sign messages.
+- Verify signatures using the public key.
 - Display key parameters like key gen time, sign time, public key size, and signature size.
 - Used the purecrypto v0.6.25 library. The library can be checked at: https://crates.io/crates/purecrypto
 
@@ -29,7 +29,7 @@ Open the terminal and run:
 
 In the root directory (sphincs-dsa-demo), open the terminal and run:
 
-*cargo build*
+*cargo build --release*
 
 
 3. **Run the demo interactively**:
@@ -38,12 +38,12 @@ To run the project, execute the instruction:
 
 For determinism check: This will display public keys and sha2 hash of signatures. If same seed and same message provided, public key and signature should be same. Some applications like Blockchain require this characteristics. 
 
-*cargo run --bin signatures*
+*cargo run --release --bin signatures*
 
 
 For checking key gen time, sign time, public key size, signature size and verification result, run:
 
-*cargo run --bin main*
+*cargo run- --release --bin main*
 
 You will be prompted to:
 
